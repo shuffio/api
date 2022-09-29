@@ -16,7 +16,7 @@ fi
 export PORT=$PORT
 
 if [ "$RACK_ENV" = 'production' ]; then
-  bundle exec thin start -p $PORT -e $RACK_ENV --tag API-api -d --threaded
+  bundle exec thin start -p $PORT -e $RACK_ENV --tag shuffio-api -d --threaded
 else
-  bundle exec thin start -p $PORT -e $RACK_ENV --tag API-api -D
+  bundle exec thin start -p $PORT -e $RACK_ENV --tag shuffio-api -D
 fi
