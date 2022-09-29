@@ -2,6 +2,8 @@ AllCops:
   Exclude:
     - '**/tmp/**/*'
     - '**/script/**/*'
+    - '**/vendor/**/*'
+    - .git/**/*
     - Rakefile
     - Gemfile
   UseCache: true
