@@ -78,5 +78,5 @@ comming from: [`grape-swagger` Rake Tasks](https://github.com/ruby-grape/grape-s
 
 ## Docker
 
-- build: `docker build -t shuffio_api .`
-- run: `docker run -it -p 9292:9292 --rm shuffio_api`
+- build: `docker build -t shuffio-api .`
+- run: `docker run -it -p 9292:9292 --rm shuffio-api`
