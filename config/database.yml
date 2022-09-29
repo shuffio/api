@@ -1,0 +1,21 @@
+# ActiveRecord Database Configuration
+development:
+  adapter: postgresql
+  encoding: unicode
+  timeout: 5000
+  user: postgres
+  database: api_development
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  timeout: 5000
+  user: postgres
+  database: api_test
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  timeout: 5000
+  user: postgres
+  database: api_production
