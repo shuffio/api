@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-ruby '3.1.2'
+ruby '3.1.3'
 source 'http://rubygems.org'
 
 # Server stuff
@@ -26,5 +26,5 @@ end
 
 
 # DB stuff
-gem 'activerecord', '>= 6'
+gem 'activerecord', '>= 7.0.4.1'
 gem 'pg'
