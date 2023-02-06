@@ -1,4 +1,4 @@
-FROM ruby:3.1.2
+FROM ruby:3.1.3
 
 # stes some Environment variables
 ENV NODE_ENV='development'
