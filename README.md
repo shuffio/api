@@ -11,7 +11,7 @@ This project is the API that powers [shuff.io](https://shuff.io). The tech stack
 
 ## Usage
 
-You'll need Ruby 3.1.2 installed. [asdf](https://github.com/asdf-vm) is recommended to install Ruby versions. Development can instead be done within Docker containers (more details coming soon). Once Ruby is installed, install dependencies by running `./script/setup` or `bundle install`.
+You'll need Ruby 3.1.3 installed. [asdf](https://github.com/asdf-vm) is recommended to install Ruby versions. Development can instead be done within Docker containers (more details coming soon). Once Ruby is installed, install dependencies by running `./script/setup` or `bundle install`.
 
 Grape Starter gives us some scripts to simplify development. We should update these to suit our needs, along with adding more.
 
